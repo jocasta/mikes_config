@@ -1,0 +1,24 @@
+---
+
+# vscode
+# vim
+# git 
+# docker
+# zsh
+# postgres? Need psql
+# Standard
+#
+
+
+    - name: Install Packages
+      dnf:
+        name: "{{ packages }}"
+        state: latest
+      vars:
+        packages:
+        - git
+        - zip
+
+
+
+

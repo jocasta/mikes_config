@@ -1,2 +1,9 @@
 # mikes_config
-Stores linux config files
+
+Repo for configuring Linux just the way I like it:
+
+--  mikes_packages
+--  mikes_psql
+--  mikes_vim
+--  mikes_zim
+--  mikes_zsh

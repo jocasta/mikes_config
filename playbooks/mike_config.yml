@@ -1,0 +1,18 @@
+---
+
+- hosts: localhost
+  connection: local
+  become: yes
+  become_user: root
+  gather_facts: no
+
+
+  tasks:
+
+    ## Install Packages
+    - name: install packages
+      include_role:
+        name: mikes_packages
+
+
+
